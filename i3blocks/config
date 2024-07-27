@@ -1,0 +1,35 @@
+# i3blocks configuration file
+#
+# The i3blocks man page describes the usage of the binary,
+# and its website describes the configuration:
+#
+#     https://vivien.github.io/i3blocks
+
+
+# Global properties
+#separator_block_width=15
+separator=true
+markup=pango
+
+[terminal]
+full_text= 
+color=#807dfe
+command=i3-msg -q exec xfce4-terminal
+
+[browser]
+full_text= 
+color=#ff7f81
+command=i3-msg -q exec firefox
+
+[files]
+full_text= 
+color=#7f3fbf
+command=i3-msg -q exec thunar
+
+[pavucontrol]
+full_text=
+command=pavucontrol
+
+[time]
+command=date '+%a %d %b %H:%M:%S'
+interval=1
