@@ -8,7 +8,7 @@
 
 # Global properties
 #separator_block_width=15
-separator=true
+separator=false
 markup=pango
 
 [terminal]
@@ -27,9 +27,19 @@ color=#7f3fbf
 command=i3-msg -q exec thunar
 
 [pavucontrol]
-full_text=
+full_text= 
 command=pavucontrol
+
+[seperator]
+full_text= 
 
 [time]
 command=date '+%a %d %b %H:%M:%S'
 interval=1
+
+[logout]
+full_text= ⏻
+command=lxsession-logout
+
+[seperator]
+full_text=  
