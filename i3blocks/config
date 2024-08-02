@@ -37,9 +37,5 @@ full_text=
 command=date '+%a %d %b %H:%M:%S'
 interval=1
 
-[logout]
-full_text= ⏻
-command=lxsession-logout
-
 [seperator]
-full_text=  
+full_text= 
